@@ -4,6 +4,7 @@ import java.awt.event.*;
 import java.io.*;
 import java.util.HashMap;
 
+
 public class Main {
 
     static Color pink = new Color(255, 182, 193);
@@ -246,7 +247,6 @@ public class Main {
         }
         panel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
     }
-
     static void styleButton(JButton btn) {
         btn.setFocusPainted(false);
         if (darkTheme) {
